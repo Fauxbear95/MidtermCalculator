@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/Display"
+        android:layout_width="391dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="end"
+        android:text="@string/display"
+        android:textSize="25pt"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <GridLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:columnCount="4"
+        android:rowCount="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:useDefaultMargins="true"
+        app:layout_constraintTop_toBottomOf="@+id/Display">
+
+        <Button
+            android:id="@+id/sevenbutton"
+            android:layout_height="wrap_content"
+            android:text="@string/seven"
+            android:backgroundTint="@color/black"
+            android:textSize="15pt"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"/>
+
+        <Button
+            android:id="@+id/eightbutton"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/black"
+            android:layout_rowWeight="1"
+            android:layout_height="wrap_content"
+            android:textSize="15pt"
+            android:text="@string/eight" />
+
+        <Button
+            android:id="@+id/ninebutton"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/black"
+            android:layout_rowWeight="1"
+            android:layout_height="wrap_content"
+            android:textSize="15pt"
+            android:text="@string/nine" />
+
+        <Button
+            android:id="@+id/clearbutton"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#999999"
+            android:layout_rowWeight="1"
+            android:layout_height="wrap_content"
+            android:textSize="15pt"
+            android:text="@string/clear" />
+
+
+        <Button
+            android:id="@+id/fourbutton"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/black"
+            android:layout_rowWeight="1"
+            android:layout_height="wrap_content"
+            android:textSize="15pt"
+            android:text="@string/four" />
+
+        <Button
+            android:id="@+id/fivebutton"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/black"
+            android:layout_rowWeight="1"
+            android:layout_height="wrap_content"
+            android:textSize="15pt"
+            android:text="@string/five" />
+
+        <Button
+            android:id="@+id/sixbutton"
+            android:layout_height="wrap_content"
+            android:text="@string/six"
+            android:backgroundTint="@color/black"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:textSize="15pt"
+            android:layout_rowWeight="1"/>
+
+        <Button
+            android:id="@+id/additionbutton"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#444444"
+            android:layout_rowWeight="1"
+            android:layout_height="wrap_content"
+            android:textSize="15pt"
+            android:text="@string/addition" />
+
+
+
+        <Button
+            android:id="@+id/onebutton"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/black"
+            android:layout_rowWeight="1"
+            android:layout_height="wrap_content"
+            android:textSize="15pt"
+            android:text="@string/one" />
+
+        <Button
+            android:id="@+id/twobutton"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:textSize="15pt"
+            android:text="@string/two" />
+
+        <Button
+            android:id="@+id/threebutton"
+            android:layout_height="wrap_content"
+            android:text="@string/three"
+            android:backgroundTint="@color/black"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:textSize="15pt"
+            android:layout_rowWeight="1"/>
+
+        <Button
+            android:id="@+id/subtractionbutton"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#444444"
+            android:textSize="15pt"
+            android:text="@string/subtraction" />
+
+
+        <Button
+            android:id="@+id/dotbutton"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/black"
+            android:layout_rowWeight="1"
+            android:layout_height="wrap_content"
+            android:textSize="15pt"
+            android:text="@string/dot" />
+
+        <Button
+            android:id="@+id/zerobutton"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/black"
+            android:layout_rowWeight="1"
+            android:layout_height="wrap_content"
+            android:textSize="15pt"
+            android:text="@string/zero" />
+
+        <Button
+            android:id="@+id/multiplicationbutton"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="#444444"
+            android:layout_height="wrap_content"
+            android:textSize="15pt"
+            android:text="@string/multiplication" />
+
+        <Button
+            android:id="@+id/divisionbutton"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="#444444"
+            android:layout_height="wrap_content"
+            android:textSize="15pt"
+            android:text="@string/division" />
+
+
+        <Button
+            android:id="@+id/equalsbutton"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:backgroundTint="#444444"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="4"
+            android:textSize="25pt"
+            android:text="@string/equals" />
+
+
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
