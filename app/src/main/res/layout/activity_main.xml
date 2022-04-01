@@ -39,8 +39,7 @@
             android:id="@+id/sevenbutton"
             android:layout_height="wrap_content"
             android:text="@string/seven"
-            android:backgroundTint="@color/black"
-            android:textSize="15pt"
+            style="@style/DigitStyle"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"/>
@@ -49,21 +48,19 @@
             android:id="@+id/eightbutton"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/black"
+            style="@style/DigitStyle"
             android:layout_rowWeight="1"
             android:layout_height="wrap_content"
-            android:textSize="15pt"
             android:text="@string/eight" />
 
         <Button
             android:id="@+id/ninebutton"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/black"
             android:layout_rowWeight="1"
             android:layout_height="wrap_content"
-            android:textSize="15pt"
-            android:text="@string/nine" />
+            android:text="@string/nine"
+            style="@style/DigitStyle"/>
 
         <Button
             android:id="@+id/clearbutton"
@@ -80,40 +77,36 @@
             android:id="@+id/fourbutton"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/black"
             android:layout_rowWeight="1"
             android:layout_height="wrap_content"
-            android:textSize="15pt"
+            style="@style/DigitStyle"
             android:text="@string/four" />
 
         <Button
             android:id="@+id/fivebutton"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/black"
             android:layout_rowWeight="1"
             android:layout_height="wrap_content"
-            android:textSize="15pt"
+            style="@style/DigitStyle"
             android:text="@string/five" />
 
         <Button
             android:id="@+id/sixbutton"
             android:layout_height="wrap_content"
             android:text="@string/six"
-            android:backgroundTint="@color/black"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
-            android:textSize="15pt"
+            style="@style/DigitStyle"
             android:layout_rowWeight="1"/>
 
         <Button
             android:id="@+id/additionbutton"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
-            android:backgroundTint="#444444"
             android:layout_rowWeight="1"
             android:layout_height="wrap_content"
-            android:textSize="15pt"
+            style="@style/OperatorStyle"
             android:text="@string/addition" />
 
 
@@ -122,10 +115,9 @@
             android:id="@+id/onebutton"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/black"
+            style="@style/DigitStyle"
             android:layout_rowWeight="1"
             android:layout_height="wrap_content"
-            android:textSize="15pt"
             android:text="@string/one" />
 
         <Button
@@ -134,18 +126,16 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/black"
-            android:textSize="15pt"
+            style="@style/DigitStyle"
             android:text="@string/two" />
 
         <Button
             android:id="@+id/threebutton"
             android:layout_height="wrap_content"
             android:text="@string/three"
-            android:backgroundTint="@color/black"
+            style="@style/DigitStyle"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
-            android:textSize="15pt"
             android:layout_rowWeight="1"/>
 
         <Button
@@ -154,8 +144,7 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_height="wrap_content"
-            android:backgroundTint="#444444"
-            android:textSize="15pt"
+            style="@style/OperatorStyle"
             android:text="@string/subtraction" />
 
 
@@ -163,20 +152,18 @@
             android:id="@+id/dotbutton"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/black"
             android:layout_rowWeight="1"
             android:layout_height="wrap_content"
-            android:textSize="15pt"
+            style="@style/DigitStyle"
             android:text="@string/dot" />
 
         <Button
             android:id="@+id/zerobutton"
             android:layout_width="0dp"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/black"
+            style="@style/DigitStyle"
             android:layout_rowWeight="1"
             android:layout_height="wrap_content"
-            android:textSize="15pt"
             android:text="@string/zero" />
 
         <Button
@@ -184,9 +171,8 @@
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="#444444"
+            style="@style/OperatorStyle"
             android:layout_height="wrap_content"
-            android:textSize="15pt"
             android:text="@string/multiplication" />
 
         <Button
@@ -194,9 +180,8 @@
             android:layout_width="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:backgroundTint="#444444"
             android:layout_height="wrap_content"
-            android:textSize="15pt"
+            style="@style/OperatorStyle"
             android:text="@string/division" />
 
 
